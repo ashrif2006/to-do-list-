@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gochi Hand", cursive;
+}
+.done{
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+body{
+    background: linear-gradient(to left,#2b5875, #4e4376);
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100px;
+}
+.paper{
+    background-color: #fff;
+    min-height: 600px;
+    padding: 30px 100px 20px 100px;
+    background-image: radial-gradient(#bfc0c1 7.2%,transparent 0);
+    background-size: 25px 25px;
+    border-radius: 20px;
+}
+.paper .paper-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+.paper .paper-header h1{
+    background: #3c58a0;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20% 100% 20% 100% / 94% 49% 91% 20%;
+}
+
+.paper .paper-body{
+    text-align: center;
+}
+.paper .paper-body p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.paper .paper-body input{
+    border: none;
+    border-bottom: 2px #3c58a0 dashed;
+    width: 250px;
+    outline: none;
+    font-size: 24px;
+}
+.paper .paper-body button{
+    background: #fff;
+    border: none;
+    font-size: 24px;
+    margin-left: 20px;
+    border: 1px solid #494a4b;
+    padding: 10px 30px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transform: rotate(6deg);
+    box-shadow: 0 10px #494a4b;
+    transition: 0.3s;
+}
+.paper .paper-body button:active{
+    box-shadow: 0 0 #494a4b;   
+    transform: rotate(0deg);
+}
+
+.paper ul{
+    margin: 50px 0 ;
+}
+.paper ul li{
+    font-size: 24px;
+    margin: 20px 0 0 22px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+    align-items: center;
+}
+.paper ul li .text{
+    font-weight: 100;
+    max-width: 50%;
+}
+.paper ul li span{
+    padding: 2px 10px;
+}
+.paper ul li span:hover{
+    background-color: #dadada;
+    border-radius: 50%;
+}

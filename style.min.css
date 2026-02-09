@@ -1,0 +1,44 @@
+
+
+@media (max-width: 600px) {
+    .container{
+        width: 95%;
+    }
+    .paper{
+        padding: 20px;
+    }
+    img{
+        height: 50px;
+    }
+    .paper .paper-header{
+        justify-content: space-between;
+    }
+    .paper .paper-header h1{
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+    .paper .paper-body input{
+        width: 70%;
+        font-size: 16px;
+    }
+    .paper .paper-body button{
+        font-size: 16px;
+        padding: 5px 15px;
+        margin-top: 10px;
+    }
+    .paper ul{
+
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+    }
+    .paper ul li{
+        margin-left: 0;
+        padding-right: 0;
+        width: 100%;
+        font-size: 15px;
+    }
+    .paper ul li .text{
+        max-width: 70%;
+    }
+}
